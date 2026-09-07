@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gearlift — Privacy Policy & Terms of Use</title>
-  <style>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gearlift — Privacy Policy & Terms of Use</title>
+<style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; line-height: 1.6; color: #1a1a1a; }
     h1 { font-size: 1.8em; margin-top: 0.2em; }
   h2 { font-size: 1.25em; margin-top: 2em; border-top: 1px solid #ddd; padding-top: 1em; }
@@ -13,39 +13,47 @@
   hr { border: none; border-top: 1px solid #ddd; margin: 3em 0; }
   a { color: #1a56db; }
 </style>
-  </head>
-  <body>
+</head>
+<body>
 
-  <h1>Gearlift — Privacy Policy</h1>
-<p class="updated">Last updated: August 31, 2026</p>
+<h1>Gearlift — Privacy Policy</h1>
+<p class="updated">Last updated: September 7, 2026</p>
 
-  <p>This Privacy Policy describes how Gearlift ("the app", "we") handles information when you use it.</p>
+<p>This Privacy Policy describes how Gearlift ("the app", "we") handles information when you use it.</p>
 
-<h2>No account required</h2>
-<p>Gearlift does not require you to create an account, sign in, or provide any personal information to use it. There is no login, no username, no email collection, no password.</p>
+<h2>An account is optional</h2>
+<p>Gearlift does not require you to create an account, sign in, or provide any personal information to use it. Every feature works with no login, no username, no email collection, no password. Signing in (below) is an optional choice you can make at any time, and you can stop using it or delete your account at any time without losing the ability to use the app.</p>
 
-  <h2>Data stored on your device</h2>
-<p>Gearlift stores the following information locally on your device only, using your device's standard app storage:</p>
-  <ul>
-    <li>Your equipment, muscle, and training preference selections</li>
-    <li>Your workout history (which exercises you did, when, and your progress through them), including any names you give your sessions</li>
+<h2>Data stored on your device</h2>
+<p>Whether or not you sign in, Gearlift stores the following information locally on your device, using your device's standard app storage:</p>
+<ul>
+  <li>Your equipment, muscle, and training preference selections</li>
+  <li>Your workout history (which exercises you did, when, and your progress through them), including any names you give your sessions</li>
 </ul>
-<p><strong>None of this data is transmitted to us, to any server we operate, or to any third party.</strong> We cannot see it, access it, or recover it — it exists only on your device. If you uninstall the app, clear its storage, or lose your device without a backup, this data is gone permanently; there is no cloud account to recover it from. This is a deliberate trade-off of not requiring an account.</p>
+<p><strong>If you never sign in, none of this data is transmitted to us, to any server we operate, or to any third party.</strong> We cannot see it, access it, or recover it — it exists only on your device. If you uninstall the app, clear its storage, or lose your device without a backup, this data is gone permanently; there is no cloud account to recover it from unless you signed in (below).</p>
 
-  <h2>Exercise content and images</h2>
-  <p>Exercise names, instructions, and photos are drawn from an open, public-domain exercise dataset. Exercise photos are loaded over the internet from a content delivery network (jsDelivr, serving files from a GitHub repository we maintain) rather than stored in the app itself. Loading an image involves your device making a standard web request to that service, which may log technical information common to any web request (such as your IP address and the file requested) under its own privacy practices — we do not receive or control this information.</p>
+<h2>Optional: signing in with Google</h2>
+<p>If you choose to sign in, Gearlift uses Google Sign-In (Firebase Authentication) to identify your account. This shares basic information from your Google account — your name, email address, and a unique account identifier — with the app, for the purpose of authenticating you and syncing your data.</p>
+<p>Once signed in, your workout history is copied to a private cloud database (Google Firestore) tied to your account, so it can sync across devices and survive a phone loss or reinstall. The first time you sign in, your existing on-device history is copied up to the cloud once. We do not share this data with third parties, use it for advertising, or sell it. It is used only to provide the app's own sync and backup functionality to you.</p>
+<p>Signing in does not remove or replace the on-device copy described above — both exist, and the app continues to work fully if you are offline or choose to sign out.</p>
+
+<h2>Deleting your account</h2>
+<p>If you signed in, you can permanently delete your account from the app's Settings at any time. This deletes your workout history from our cloud database, your account profile, and your sign-in identity — permanently and irreversibly. It does not delete your on-device workout history; that is a separate action ("Clear all data" in Settings), kept deliberately separate so deleting your account doesn't also erase what lives only on your phone.</p>
+
+<h2>Exercise content and images</h2>
+<p>Exercise names, instructions, and photos are drawn from an open, public-domain exercise dataset. Exercise photos are loaded over the internet from a content delivery network (jsDelivr, serving files from a GitHub repository we maintain) rather than stored in the app itself. Loading an image involves your device making a standard web request to that service, which may log technical information common to any web request (such as your IP address and the file requested) under its own privacy practices — we do not receive or control this information.</p>
 
 <h2>Analytics</h2>
-<p>Gearlift uses Google Firebase Analytics to understand how the app is used — for example, which screens are opened and how often, and to detect crashes. This data is aggregated and is not linked to your name, email, or any other personal identifier, because we don't collect those in the first place. Firebase Analytics is provided by Google; see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for how Google itself handles this data.</p>
+<p>Gearlift uses Google Firebase Analytics to understand how the app is used — for example, which screens are opened and how often, and to detect crashes. This data is aggregated and, for users who don't sign in, is not linked to your name, email, or any other personal identifier, because we don't collect those in the first place. Firebase Analytics is provided by Google; see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for how Google itself handles this data.</p>
 
 <h2>Children's privacy</h2>
-<p>Gearlift is not directed at children under 13, and we do not knowingly collect information from children. Since the app collects no personal information from anyone, this applies equally to all users.</p>
+<p>Gearlift is not directed at children under 13, and we do not knowingly collect information from children. The app's core functionality collects no personal information from anyone. The optional sign-in uses standard Google account sign-in, which itself is subject to Google's own age requirements and policies.</p>
 
 <h2>No ads, no data sales</h2>
-<p>Gearlift does not display advertising and does not sell, rent, or share any data with third parties for marketing purposes.</p>
+<p>Gearlift does not display advertising and does not sell, rent, or share any data — on-device or cloud — with third parties for marketing purposes.</p>
 
 <h2>Changes to this policy</h2>
-<p>If this policy changes — for example, if a future version of the app adds accounts, cloud sync, or new data collection — we'll update this page and change the "Last updated" date above. Continued use of the app after a change means you accept the updated policy.</p>
+<p>If this policy changes again, we'll update this page and change the "Last updated" date above. Continued use of the app after a change means you accept the updated policy.</p>
 
 <h2>Contact</h2>
 <p>Questions about this policy: <a href="mailto:nuno.d.o.marques1997@gmail.com">nuno.d.o.marques1997@gmail.com</a></p>
@@ -53,30 +61,33 @@
 <hr>
 
 <h1>Gearlift — Terms of Use</h1>
-<p class="updated">Last updated: August 31, 2026</p>
+<p class="updated">Last updated: September 7, 2026</p>
 
 <p>By using Gearlift, you agree to these terms.</p>
 
 <h2>The app</h2>
 <p>Gearlift generates workout suggestions based on the equipment and muscles you select. It is provided for general fitness purposes and is <strong>not a substitute for professional medical or fitness advice</strong>.</p>
 
-  <h2>Your responsibility</h2>
-  <p>You are responsible for exercising safely. Consult a doctor before starting any exercise program, particularly if you have a pre-existing health condition, are pregnant, or are new to exercise. Stop any exercise immediately if you feel pain, dizziness, or discomfort. Use correct form — Gearlift illustrates movements but cannot supervise you performing them.</p>
+<h2>Your responsibility</h2>
+<p>You are responsible for exercising safely. Consult a doctor before starting any exercise program, particularly if you have a pre-existing health condition, are pregnant, or are new to exercise. Stop any exercise immediately if you feel pain, dizziness, or discomfort. Use correct form — Gearlift illustrates movements but cannot supervise you performing them.</p>
 
-  <h2>No warranty</h2>
-  <p>Gearlift is provided "as is," without warranties of any kind. We do not guarantee the app will be error-free, uninterrupted, or suitable for your specific fitness needs.</p>
+<h2>Accounts are optional and provided as-is</h2>
+<p>Signing in and cloud sync are optional conveniences, provided "as is," without a guarantee of uninterrupted availability or that sync will always complete promptly. Deleting your account is permanent and irreversible, and does not affect data stored only on your device.</p>
+
+<h2>No warranty</h2>
+<p>Gearlift is provided "as is," without warranties of any kind. We do not guarantee the app will be error-free, uninterrupted, or suitable for your specific fitness needs.</p>
 
 <h2>Limitation of liability</h2>
 <p>To the maximum extent permitted by law, we are not liable for any injury, loss, or damage arising from your use of the app or reliance on the exercise information it provides.</p>
 
-  <h2>Content</h2>
-  <p>Exercise data is drawn from a public-domain dataset. Gearlift's own design, branding, and code are our property; the exercise data itself remains public domain and unrestricted.</p>
+<h2>Content</h2>
+<p>Exercise data is drawn from a public-domain dataset. Gearlift's own design, branding, and code are our property; the exercise data itself remains public domain and unrestricted.</p>
 
-  <h2>Changes</h2>
-  <p>We may update the app and these terms over time. Continued use after a change means you accept the updated terms.</p>
+<h2>Changes</h2>
+<p>We may update the app and these terms over time. Continued use after a change means you accept the updated terms.</p>
 
-  <h2>Contact</h2>
-  <p>Questions about these terms: <a href="mailto:nuno.d.o.marques1997@gmail.com">nuno.d.o.marques1997@gmail.com</a></p>
+<h2>Contact</h2>
+<p>Questions about these terms: <a href="mailto:nuno.d.o.marques1997@gmail.com">nuno.d.o.marques1997@gmail.com</a></p>
 
-  </body>
-  </html>
+</body>
+</html>
