@@ -1,0 +1,10 @@
+.env
+.env.*
+*.key
+*.pem
+*.jks
+*.keystore
+google-services.json
+credentials.json
+*token*
+*secret*
